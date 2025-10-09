@@ -24,5 +24,23 @@ int main() {
         k++;
     } while (k <= 8);
 
+    printf("\n");
+
+                    //'' movimento do cavalo usando "FOR"  ''
+              printf("Movimento do Cavalo:\n");
+
+    int baixo = 2;      // duas casas para baixo     (ação que eu quero fazer!)
+    int esquerda = 1;   // uma casa para a esquerda
+
+    // loop externo (para o movimento para baixo)
+    for (int i = 1; i <= baixo; i++) {
+        printf("Baixo %d\n", i);
+    }
+
+    // loop interno (para o movimento para a esquerda)
+    for (int j = 1; j <= esquerda; j++) {
+        printf("Esquerda %d\n", j);
+    }
+
     return 0;
 }
